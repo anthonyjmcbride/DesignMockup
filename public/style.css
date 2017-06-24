@@ -1,0 +1,64 @@
+/*reset*/
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+  /*Gets rid of bullet points on lists*/
+}
+
+a {
+  text-decoration: none;
+  /*gets rid of the underline under links*/
+}
+
+/*header*/
+.nav-bar {
+  background: #5ebacf;
+}
+
+.nav-bar__menu {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+}
+
+.nav-bar__menu-item {
+  padding: 0.5em 0 0.5em 1em;
+}
+
+.nav-bar__menu-item-link {
+  color: white;
+}
+
+.nav-bar__menu-item-link:hover {
+  color: lightgray;
+}
+
+/*title*/
+
+.title {
+  text-align: center;
+}
+/*article*/
+
+.article {
+  padding: 0 0 0.75em;
+}
+/*events*/
+
+.events {
+
+}
+
+.event__img {
+  width: 100%;
+}
+
+@media only screen and (mid-width: 768px){
+    /*events*/
+    #events {
+        display: flex;
+    }
+}
