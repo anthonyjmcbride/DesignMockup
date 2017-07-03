@@ -64,11 +64,11 @@ header {
 
 .overlap-text {
   color: white;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: 'Circular', sans-serif;
   padding: 150px;
 }
 #NewiPhone {
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 600;
 }
 #new-mock {
@@ -76,10 +76,15 @@ header {
   font-weight: lighter;
 }
 #fully {
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 100;
   padding-top: 5px;
   padding-bottom: 16px;
+}
+
+#get-mockup {
+  display: flex;
+  justify-content: space-between;
 }
 
 .mockup-button {
@@ -92,10 +97,12 @@ header {
   flex-direction: column;*/
   font-family: 'Helvetica Neue', sans-serif;
 }
+
 .new-price {
   /*display: flex;*/
   font-weight: 400;
   color: #4F4F4F;
+  padding-right: 50px;
 }
 .mockup-button {
 padding: 10px 15px 11px !important;
@@ -110,8 +117,8 @@ border-radius: 5px;
 border: 1px solid #000000;
 cursor: pointer;
 /*box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;*/
--moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
--webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+/*-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;*/
 justify-content: center;
 align-items: flex-end;
 }
@@ -129,10 +136,13 @@ align-items: flex-end;
 .container #middle-three-images {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 50px;
 }
 .container #middle-three-text {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 25px;
+  padding-top: 25px;
 }
 
 #mockup-on-dribble-div {
@@ -140,6 +150,7 @@ align-items: flex-end;
   height: 300px;
   text-align: center;
   border-top: .5px solid rgba(13, 13, 13, 0.2);
+  padding-top: 30px;
   /*border-top-width: .5px;*/
 }
 
@@ -157,19 +168,88 @@ align-items: flex-end;
 }
 
 #iPhone6 {
+  font-family: 'Circular', sans-serif;
   width: 325px;
 }
 
 #iPhone5s {
+  font-family: 'Circular', sans-serif;
   width: 325px;
 }
 #free-sample {
+  font-family: 'Circular', sans-serif;
   width: 325px;
 }
 
 #middle-price-btn-div {
   display: flex;
   justify-content: flex-end;
+}
+
+.middle-price-btn {
+  padding: 10px 15px 11px !important;
+  font-size: 18px !important;
+  background-color: #C1C7CC;
+  font-weight: bold;
+  /*text-shadow: 1px 1px #57D6C7;*/
+  color: #FFFFFF;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  /*-webkit-border-radius: 5px;*/
+  border: 1px solid #C1C7CC;
+  cursor: pointer;
+  /*box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;*/
+  /*-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;*/
+  /*display: flex;
+  justify-content: center;
+  align-items: flex-end;*/
+  height: 48px;
+  width: 90px;
+}
+
+.middle-price-btn:hover {
+  background: #333333;
+  text-decoration: none;
+}
+
+.middle-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+#middle-sec-btn {
+  padding: 10px 15px 11px !important;
+  font-size: 18px !important;
+  background-color: #C1C7CC;
+  font-weight: bold;
+  /*text-shadow: 1px 1px #57D6C7;*/
+  color: #FFFFFF;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  /*-webkit-border-radius: 5px;*/
+  border: 1px solid #C1C7CC;
+  cursor: pointer;
+  /*box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;*/
+  /*-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;*/
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#middle-sec-btn:hover {
+  background: #333333;
+  text-decoration: none;
 }
 
 .left-text #iPhone6 {
